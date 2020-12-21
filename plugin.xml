@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.6/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+	<label lang="de">Hinzufügen eines zusätzlichen Badges zu einem Artikel ähnlich Rabatt, TIPP und NEU</label>
+    <label lang="en">Adding an additional badge to an article similar to discount, highlight and new</label>
+    <version>1.0.0</version>
+    <copyright>Sebastian Schreier</copyright>
+    <license>proprietary</license>
+    <link>https://www.sebastianschreier.de</link>
+    <author>Sebastian Schreier</author>
+    <supplier>Sebastian Schreier</supplier>
+    <compatibility minVersion="5.2.13" />
+	<changelog version="1.0.0">
+		<changes>
+			<![CDATA[
+				Initial release of the plugin
+			]]>
+		</changes>
+		<changes lang="de">
+			<![CDATA[
+				Erstveröffentlichung des Plugins
+			]]>
+		</changes>
+	</changelog>
+	<description>
+		<![CDATA[
+			<p>A plugin for adding an additional badge to an article similar to the existing bagdes discount, highlight and new. In addition to the text, you have the option to define the background and font color of the badge individually for each article, but also globally for all articles via a snippet or within the plugin configuration. The position of the additional badge can be selected within the plugin configuration and the existing badges discount, highlight and new and esd can be hidden if necessary. If desired, the badges can also be displayed on the article details page.</p>
+		]]>
+	</description>
+	<description lang="de">
+		<![CDATA[	
+			<p>Ein Plugin zum Hinzufügen eines zusätzlichen Badges zu einem Artikel ähnlich den bereits vorhandenen Badges Rabatt, TIPP und NEU. Man hat dabei die Möglichkeit, neben dem Text auch die Hintergrund- und Schriftfarbe des Badges individuell pro Artikel festzulegen, aber auch global für alle Artikel über einen Textbaustein bzw. innerhalb der Plugin - Konfiguration. Die Position des zusätzlichen Badges kann innerhalb der Plugin - Konfiguration ausgewählt und die bestehenden Badges Rabatt, TIPP, NEU und ESD bei Bedarf ausgeblendet werden. Falls gewünscht kann man sich die Badges auch auf der Artikel - Detailseite anzeigen lassen.</p>
+		]]>
+	</description>
+</plugin>

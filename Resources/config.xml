@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.6/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" scope="shop" type="select">
+            <name>positionAdditionalBadge</name>
+            <label lang="de">Position des zusätzlichen Badges</label>
+            <label lang="en">position of the additional badge</label>
+            <value>4</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">vor dem Rabatt - Badge</label>
+                    <label lang="en">before the discount badge</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">vor dem Tipp - Badge</label>
+                    <label lang="en">before the highlight badge</label>
+                </option>
+                <option>
+                    <value>2</value>
+                    <label lang="de">vor dem Neuheiten - Badge</label>
+                    <label lang="en">before the new badge</label>
+                </option>
+                <option>
+                    <value>3</value>
+                    <label lang="de">vor dem ESD - Badge</label>
+                    <label lang="en">before the esd badge</label>
+                </option>
+                <option>
+                    <value>4</value>
+                    <label lang="de">nach dem ESD - Badge</label>
+                    <label lang="en">after the esd badge</label>
+                </option>
+            </store>
+        </element>
+        <element required="false" scope="shop" type="color">
+            <name>backgroundColorAdditionalBadge</name>
+            <label lang="de">Hintergrundfarbe des zusätzlichen Badges</label>
+            <label lang="en">background color of the additional badge</label>
+            <value>#000000</value>
+        </element>
+        <element required="false" scope="shop" type="color">
+            <name>fontColorAdditionalBadge</name>
+            <label lang="de">Schriftfarbe des zusätzlichen Badges</label>
+            <label lang="en">font color of the additional badge</label>
+            <value>#ffffff</value>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showDiscountBadgeInProductbox</name>
+            <label lang="de">Rabatt - Badge in der Produktbox anzeigen</label>
+            <label lang="en">show discount badge in the product box</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showHighlightBadgeInProductbox</name>
+            <label lang="de">TIPP - Badge in der Produktbox anzeigen</label>
+            <label lang="en">show highlight badge in the product box</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showNewBadgeInProductbox</name>
+            <label lang="de">NEU - Badge in der Produktbox anzeigen</label>
+            <label lang="en">show new badge in the product box</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showEsdBadgeInProductbox</name>
+            <label lang="de">ESD - Badge in der Produktbox anzeigen</label>
+            <label lang="en">show esd badge in the product box</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showAdditionalBadgeInProductbox</name>
+            <label lang="de">Zusätzliches Badge in der Produktbox anzeigen</label>
+            <label lang="en">show additional badge in the product box</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showBadgesOnArticleDetailpage</name>
+            <label lang="de">Badges auf der Artikel - Detailseite anzeigen</label>
+            <label lang="en">show badges on the article detail page</label>
+            <value>1</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showDiscountBadgeOnArticleDetailpage</name>
+            <label lang="de">Rabatt - Badge auf der Artikel - Detailseite anzeigen</label>
+            <label lang="en">show discount badge on the article detail page</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showHighlightBadgeOnArticleDetailpage</name>
+            <label lang="de">TIPP - Badge auf der Artikel - Detailseite anzeigen</label>
+            <label lang="en">show highlight badge on the article detail page</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showNewBadgeOnArticleDetailpage</name>
+            <label lang="de">NEU - Badge auf der Artikel - Detailseite anzeigen</label>
+            <label lang="en">show new badge on the article detail page</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showEsdBadgeOnArticleDetailpage</name>
+            <label lang="de">ESD - Badge auf der Artikel - Detailseite anzeigen</label>
+            <label lang="en">show esd badge on the article detail page</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" scope="shop" type="select">
+            <name>showAdditionalBadgeOnArticleDetailpage</name>
+            <label lang="de">Zusätzliches Badge auf der Artikel - Detailseite anzeigen</label>
+            <label lang="en">show additional badge on the article detail page</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">ja</label>
+                    <label lang="en">yes</label>
+                </option>
+                <option>
+                    <value>1</value>
+                    <label lang="de">nein</label>
+                    <label lang="en">no</label>
+                </option>
+            </store>
+        </element>
+    </elements>
+</config>

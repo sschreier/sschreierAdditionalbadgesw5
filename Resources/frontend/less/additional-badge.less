@@ -1,0 +1,68 @@
+.badge--additionalbadge {
+	background: @backgroundColorAdditionalBadge none repeat scroll 0 0;
+	color: @fontColorAdditionalBadge;
+}
+
+.product--details {
+	.product--badges {
+		position: absolute;
+        z-index: 2;
+        font-size: 0;
+
+		&.product--badges-detail {
+			position: absolute;
+			top: 0;
+			.unitize(left, -1);
+			z-index: 750;
+
+			.product--badge {
+				display: block;
+				float: left;
+				position: relative;
+				.unitize-padding(3, 10, 3, 10);
+				.unitize-margin(0, 0, 5, 0);
+				text-align: center;
+				.unitize(font-size, 14);
+				.unitize(line-height, 16);
+				font-weight: 700;
+				clear: both;
+				border-top-left-radius: 0;
+                .unitize(border-top-right-radius, 3);
+                .unitize(border-bottom-right-radius, 3);
+                border-bottom-left-radius: 0;
+				background-clip: padding-box;
+				color: #fff;
+
+				&.badge--discount {
+					background: #e74c3c;
+				}
+
+				&.badge--recommend {
+					background: #2ecc71;
+				}
+
+				&.badge--newcomer {
+					background: #f1c40f;
+				}
+
+				&.badge--esd {
+					background: #4aa3df;
+				}
+			}
+		}
+	}
+}
+
+@media screen and(min-width: @desktopViewportWidth){
+    .product--details {
+        .product--badges {
+        	&.product--badges-detail {
+            	.unitize(left, 75);
+
+            	&.no--thumbnails {
+            		left: 0;
+            	}
+            }
+        }
+    }
+}
