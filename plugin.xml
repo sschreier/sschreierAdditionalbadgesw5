@@ -8,7 +8,7 @@
     <link>https://www.sebastianschreier.de</link>
     <author>Sebastian Schreier</author>
     <supplier>Sebastian Schreier</supplier>
-    <compatibility minVersion="5.2.13" />
+    <compatibility minVersion="5.5.0" />
 	<changelog version="1.0.0">
 		<changes>
 			<![CDATA[
